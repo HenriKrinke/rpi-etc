@@ -1,0 +1,46 @@
+# editor / backup files
+*~
+#*#
+*.bak
+*.tmp
+
+# transient files
+.pwd.lock
+.updated
+mtab
+ld.so.cache
+machine-id
+
+# account databases / secrets
+shadow
+shadow-
+gshadow
+gshadow-
+passwd-
+group-
+subuid
+subuid-
+subgid
+subgid-
+
+# ssh host keys
+ssh/ssh_host_*
+!ssh/ssh_host_*.pub
+
+# gpg private data
+pacman.d/gnupg/private-keys-v1.d/
+pacman.d/gnupg/*.gpg
+pacman.d/gnupg/*.gpg~
+pacman.d/gnupg/trustdb.gpg
+pacman.d/gnupg/tofu.db
+pacman.d/gnupg/pubring.gpg~
+pacman.d/gnupg/secring.gpg
+
+# generated cert bundles
+ca-certificates/extracted/
+
+# temp sudo files
+sudoers.tmp
+sudoers~
+#sudoers#
+ssl/certs/
