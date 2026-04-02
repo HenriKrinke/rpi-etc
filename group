@@ -53,3 +53,5 @@ dhcpcd:x:969:
 pcscd:x:968:
 alarm:x:1000:
 git:x:967:
+locate:x:21:
+named:x:40:
